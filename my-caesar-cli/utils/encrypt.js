@@ -1,4 +1,4 @@
-const encryption = (key, str, action) => {
+const encrypt = (key, str, action) => {
     const allLettersOrder = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
     const upperCaseLettersStr = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     const lowerCaseLettersStr = 'abcdefghijklmnopqrstuvwxyz';
@@ -33,4 +33,4 @@ const encryption = (key, str, action) => {
     }
 }
 
-module.exports = { encryption };
+module.exports = { encrypt };
