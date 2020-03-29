@@ -1,0 +1,31 @@
+{
+    "name": "my-caesar-cli",
+    "version": "1.0.0",
+    "description": "CLI tool to encode and decode text by Caesar cipher",
+    "main": "my-caesar-cli.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/NatalyCoding/my-caesar-cli.git"
+    },
+    "keywords": [
+        "cli",
+        "node",
+        "nodejs",
+        "caesar",
+        "cipher",
+        "caesar",
+        "shift"
+    ],
+    "author": "Natalia Panakhyd",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/NatalyCoding/my-caesar-cli/issues"
+    },
+    "homepage": "https://github.com/NatalyCoding/my-caesar-cli#readme",
+    "dependencies": {
+        "commander": "^5.0.0"
+    }
+}

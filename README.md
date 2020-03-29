@@ -1,6 +1,6 @@
 # Node Caesar CLI App
 
-## This is a CLI tool that encode and decode a text by Caesar cipher.
+### This is a CLI tool that encode and decode a text by Caesar cipher.
 
 (RS School Node.js course task#1)
 
@@ -31,15 +31,15 @@ npm install
 **Usage examples:**
 
 ```bash
-$ node my_caesar_cli -a encode -s 7 -i "./input.txt" -o "./output.txt"
+$ node caesar_cli -a encode -s 7 -i "./input.txt" -o "./output.txt"
 ```
 
 ```bash
-$ node my_caesar_cli --action encode --shift 7 --input plain.txt --output encoded.txt
+$ node caesar_cli --action encode --shift 7 --input plain.txt --output encoded.txt
 ```
 
 ```bash
-$ node my_caesar_cli --action decode --shift 7 --input decoded.txt --output plain.txt
+$ node caesar_cli --action decode --shift 7 --input decoded.txt --output plain.txt
 ```
 
 > input.txt
